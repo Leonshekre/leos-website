@@ -1,17 +1,30 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <div>
+      <ul className="crumbs">
+        <li className="crumb"><Link href="/">Home</Link></li>
+        <li className="crumb"><Link href="/testPage">fun JS testing page</Link></li>
+        <li className="crumb"><Link href="/Projects">Projects</Link></li>
+        {/* <li><Link href="/AboutMe">About Me!</Link></li> */}
+      </ul>
+
+      <br></br>
+
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Website In-Progress
       </h1>
       <p className="text-4xl">Leonardo Paredes</p>
-      {/* <Image 
-        src={profilePic}
+      <Image 
+      
+        src="/images/leos_hs_photo.png"
         alt="Picture of Leonardo Paredes"
         className="my-8 w-32 h-32 rounded-full"
-      /> */}
+        width={100}
+        height={100}
+      />
       <div>
         <p className="whitespace-pre-line">
           Hello! <br></br>
@@ -23,12 +36,12 @@ export default function Home() {
         <ul className="list-disc list-inside">
           <p>Things I am currently studying/doing include...</p>
           <li>Google IT Support Certificate (8.7% progress)</li>
-          <li>CompTia A+</li>
+          <li>CompTia A+ (not yet)</li>
           <p>And in a less structured way (for curiosity/fun)...</p>
           <li>Xfinity Wifi mini Network Management Project</li>
           <li>UTM Linux VM practice (on my Macbook)</li>
-          <li>Macbook & Linux exploration (Thinkpad T480 to buy & repair)</li>
-          <li>Portfolio website creation(this one!)</li>
+          <li>Macbook & Linux exploration (Thinkpad T480 to replace battery & ram)</li>
+          <li>Portfolio website creation (this one!)</li>
         </ul>
       </div>
     </div>
