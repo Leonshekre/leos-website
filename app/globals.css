@@ -27,21 +27,33 @@ body {
 }
 
 
-/*  */
+/* CUSTOM CSS */
+.debug * {
+  outline: 1px solid orange;
+}
+
+.flexTest {
+  display: flex;
+  background-color: lightblue;
+}
+.flexTest div {
+  background-color: grey;
+  border: 3px solid green; /*width style color*/
+  margin: 3px;
+}
+
 .crumbs ol {
   list-style-type: none;
   padding-left: 0;
 }
-
 .crumb {
   display: inline-block;
 }
-
 .crumb a::after {
   display: inline-block;
-  color: black;
-  content: ">";
-  font-size: 80%;
+  content: "|";
+  border: solid;
+  /* font-size: 80%; */
   font-weight: bold;
   padding: 0 3px;
 }

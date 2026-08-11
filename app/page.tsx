@@ -1,15 +1,24 @@
+"use client"
+
 import Image from "next/image";
 import Link from 'next/link'
+import { useState } from "react";
 
 export default function Home() {
+  const [debug, setDebug] = useState(false);
+  
+
   return (
-    <div>
-      <ul className="crumbs">
-        <li className="crumb"><Link href="/">Home</Link></li>
-        <li className="crumb"><Link href="/testPage">fun JS testing page</Link></li>
-        <li className="crumb"><Link href="/Projects">Projects</Link></li>
-        {/* <li><Link href="/AboutMe">About Me!</Link></li> */}
-      </ul>
+    <div className={debug ? "debug" : ""}>
+
+      <nav className="crumbs">
+        <ol>
+          <li className="crumb"><Link href="/">Home</Link></li>
+          <li className="crumb"><Link href="/testPage">JS testing page</Link></li>
+          <li className="crumb"><Link href="/Projects">Projects</Link></li>
+          {/* <li><Link href="/AboutMe">About Me!</Link></li> */}
+        </ol>
+      </nav>
 
       <br></br>
 
