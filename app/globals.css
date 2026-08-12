@@ -35,6 +35,9 @@ body {
 .flexTest {
   display: flex;
   background-color: lightblue;
+  border: 3px solid red;
+  
+  justify-content: space-evenly;
 }
 .flexTest div {
   background-color: grey;
@@ -45,6 +48,7 @@ body {
 .crumbs ol {
   list-style-type: none;
   padding-left: 0;
+  border: 3px solid red;
 }
 .crumb {
   display: inline-block;
