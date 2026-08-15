@@ -28,8 +28,24 @@ body {
 
 
 /* CUSTOM CSS */
+/*
+px    Precise
+rem   Most font sizes
+em    idk
+%     bruh
+vw/wh well yeah
+fr    grid layouts
+*/
+
+/* COLOR SCHEME: 003135 024950 964734 0FA4AF AFDDE5 */
 .debug * {
   outline: 1px solid orange;
+}
+
+
+
+.outerEdge {
+  padding: 0vw 10vw 0vw 10vw
 }
 
 .flexTest {

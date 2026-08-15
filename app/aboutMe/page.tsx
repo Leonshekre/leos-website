@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div>
-      projects go here yep
-    </div>
+    <div>page</div>
   )
 }

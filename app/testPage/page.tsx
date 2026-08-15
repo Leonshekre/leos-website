@@ -1,7 +1,20 @@
 import TestComponent from '@/components/test'
 import React from 'react'
 
+// TODO: Learn media queries for diff platforms (mobile vs desktop)
+
 export default function page() {
+  const jsxElement = (
+    <ul className="usesNAME">
+      <li>Apples</li>
+      <li>Bananas</li>
+      <li>Cherries</li>
+    </ul>
+  );
+  const nums = [4, 9, 16, 25];
+  const numsRoot = nums.map(Math.sqrt); // New arr
+  console.log(numsRoot);
+
   return (
     <div>
       <h1>Test</h1>

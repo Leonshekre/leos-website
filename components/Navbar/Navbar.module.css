@@ -1,0 +1,12 @@
+.navBarList {
+  display: flex;
+  background-color: #AFDDE5;
+  justify-content: space-evenly;
+  color: #003135;
+  border-radius: 0px 0px 7px 7px;
+}
+.navBarListItem {
+  border: 3px solid #0FA4AF;
+  border-radius: 7px;
+  padding: 5px
+}
