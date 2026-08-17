@@ -1,0 +1,23 @@
+.projectCardHolder{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectCardHolder div {
+    border: 5px solid black;
+    border-radius: 7px;
+    margin: 10px 0px;
+    padding: 3px;
+}
+
+.projectCardHolder h1 {
+    font-size: 22px;
+}
+.projectCardHolder p {
+}
+
+.link {
+    color: blue;
+    text-decoration: underline blue;
+}
+

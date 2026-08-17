@@ -30,7 +30,9 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <NavBar></NavBar>
+        <div className="outerEdgePadding">
         {children}
+        </div>
       </body>
     </html>
   );

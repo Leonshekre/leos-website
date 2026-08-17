@@ -24,7 +24,7 @@ export default function page() {
         <div>Item 2</div>
         <div>Item 3</div>
       </div>
-      <TestComponent name="Leo" age={23} role="SWDev" ></TestComponent>
+      <TestComponent name="Leo" age={23} role="TechGuy" ></TestComponent>
     </div>
   )
 }
