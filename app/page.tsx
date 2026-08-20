@@ -27,20 +27,31 @@ export default function Home() {
       <div>
         <p className="whitespace-pre-line">
           Hello! <br></br>
-          I am a University of Washington alumni, recently graduated Dec 2025<br></br>
-          I am currently pursuing a career in IT Support while working my part-time job.<br></br>
+          I am a University of Washington alumni, recently graduated Dec 2025
+          <br></br>
+          I am currently pursuing a career in Data Analytics while working my part-time job.
+          <br></br>
+          {/* I am also looking into tech volunteering for the Unhoused*/}
           <br></br>
           <br></br>
         </p>
+        
         <ul className="list-disc list-inside">
           <p>Things I am currently studying/doing include...</p>
-          <li>Google IT Support Certificate (8.7% progress)</li>
-          <li>CompTia A+ (not yet)</li>
+          <p>IBM Data Analytics Certificate</p>
+          <p>(Archived Google IT Support Certificate)</p>
+
+          <br></br>
           <p>And in a less structured way (for curiosity/fun)...</p>
-          <li>Xfinity Wifi mini Network Management Project</li>
-          <li>UTM Linux VM practice (on my Macbook)</li>
-          <li>Macbook & Linux exploration (Thinkpad T480 to replace battery & ram)</li>
+          {/* <li>Xfinity Wifi mini Network Management Project</li> */}
           <li>Portfolio website creation (this one!)</li>
+          <li>UTM Linux VM practice (on my Macbook)</li>
+
+          <br></br>
+
+          <li>Macbook & Linux exploration (Thinkpad T480 to replace battery & ram)</li>
+          <li>Arduino starter kit (to purchase)</li>
+          {/* <li>Seattle City testing app</li> */}
         </ul>
       </div>
     </div>
