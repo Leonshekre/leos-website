@@ -38,7 +38,7 @@ export default function Home() {
         
         <ul className="list-disc list-inside">
           <p>Things I am currently studying/doing include...</p>
-          <p>IBM Data Analytics Certificate</p>
+          <p>TESTING: IBM Data Analytics Certificate</p>
           <p>(Archived Google IT Support Certificate)</p>
 
           <br></br>
@@ -50,8 +50,9 @@ export default function Home() {
           <br></br>
 
           <li>Macbook & Linux exploration (Thinkpad T480 to replace battery & ram)</li>
-          <li>Arduino starter kit (to purchase)</li>
-          {/* <li>Seattle City testing app</li> */}
+          {/* <li>Arduino starter kit (to purchase)</li> */}
+          {/* <li>Seattle Seterra</li> */}
+          {/* <li>Data viz stuff? idk </li>*/}
         </ul>
       </div>
     </div>
